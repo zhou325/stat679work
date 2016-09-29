@@ -1,7 +1,3 @@
-# I will put all results of hw1 in this directory.
+# I will put my results for hw1 here.
 
-# 'summarizeSNaQres.csv' is the result of ex2.
-Zea Mays SNP Calling Project
-
-
-Project started 2016-09-14
+# "summarizeSNaQres.csv" is the result for ex2
