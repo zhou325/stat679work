@@ -1,3 +1,4 @@
-# I will put my results for hw1 here.
-
-# "summarizeSNaQres.csv" is the result for ex2
+# Results
+---
+### All results of homework 1 will be put in this directory.
+* ####summarizeSNaQres.csv: a summary table for exercise 2

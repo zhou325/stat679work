@@ -1,5 +1,5 @@
-#I will put all my scripts of hw1 in this directory.
-
-#normalizeFileNames.sh is the script for ex1.
-
-#summarizeSNaQres.sh is the script for ex2.
+# Scripts
+---
+### All shell scripts of homework 1 will be put in this directory.
+* ####normalizeFileNames.sh : for normalizing file names
+* ####summarizeSNaQres.sh: for creating a summary table in `csv` format
