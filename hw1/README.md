@@ -5,15 +5,15 @@
 
 This directory contains the following document:
 
-* ### hw1-snaqTimeTests/: contains all data files
+* ###hw1-snaqTimeTests/: contains all data files
     * out/: for the main output
     * log/: to record the parameter values and details on the individual runs of a single analysis
-* ### script: contains all shell scripts
+* ###script/: contains all shell scripts
     * normalizeFileNames.sh : for normalizing file names
     * summarizeSNaQres.sh: for creating a summary table in `csv` format
-* ### results: contains all result files
+* ###results/: contains all result files
     * summarizeSNaQres.csv: a summary table for exercise 2
-* ### README.md: gives higher-level explanations and all the tools (commands) to reproduce my results
+* ###README.md: gives higher-level explanations and all the tools (commands) to reproduce my results
 
 ###working directory: hw1
 ---
