@@ -10,10 +10,8 @@ This directory contains the following document:
 * `script`: contains all shell scripts
     * `normalizeFileNames.sh`: for normalizing file names
     * `summarizeSNaQres.sh`: for creating a summary table for `ex2`
-    * `summarizeSNaQres2.sh`: the corrected code for creating a summary table for `ex2`
 * `results`: contains all result files
     * `summarizeSNaQres.csv`: a summary table for `ex2`
-    * `summarizeSNaQres.csv2`: a new summary table created by running `summarizeSNaQres2.sh`
 
 * `README.md`: gives higher-level explanations and all the tools (commands) to reproduce my results
 
@@ -28,5 +26,5 @@ will reproduce the results of `ex1`.
     (The file names of all data files in this repository were already changed.)
 
 * To change the working directory to `hw1` and run the following code:
-`bash scripts/summarizeSNaQres2.sh`
+`bash scripts/summarizeSNaQres.sh`
 will reproduce the correct results of `ex2`.
