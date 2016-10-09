@@ -8,11 +8,11 @@ This directory contains the following document:
     * **out/:** for the main output
     * **log/:** to record the parameter values and details on the individual runs of a single analysis
 * **script/:** contains all shell scripts
-    * **normalizeFileNames.sh:** for normalizing file names
-    * **summarizeSNaQres.sh:** for creating a summary table in `csv` format
+    * `normalizeFileNames.sh:` for normalizing file names
+    * `summarizeSNaQres.sh:` for creating a summary table in `csv` format
 * **results/:** contains all result files
-    * **summarizeSNaQres.csv:** a summary table for exercise 2
-* **README.md:** gives higher-level explanations and all the tools (commands) to reproduce my results
+    * `summarizeSNaQres.csv:` a summary table for exercise 2
+* `README.md:` gives higher-level explanations and all the tools (commands) to reproduce my results
 
 ###working directory: hw1
 
