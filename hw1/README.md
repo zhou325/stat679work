@@ -8,11 +8,14 @@ This directory contains the following document:
     * **out/:** for the main output
     * **log/:** to record the parameter values and details on the individual runs of a single analysis
 * **script/:** contains all shell scripts
-    * `normalizeFileNames.sh:` for normalizing file names
-    * `summarizeSNaQres.sh:` for creating a summary table in `csv` format
+    * `normalizeFileNames.sh`: for normalizing file names
+    * `summarizeSNaQres.sh`: for creating a summary table for `ex2`
+    * `summarizeSNaQres2.sh`: the corrected code for creating a summary table for `ex2`
 * **results/:** contains all result files
-    * `summarizeSNaQres.csv:` a summary table for exercise 2
-* `README.md:` gives higher-level explanations and all the tools (commands) to reproduce my results
+    * `summarizeSNaQres.csv`: a summary table for `ex2`
+    * `summarizeSNaQres.csv2`: a new summary table created by running `summarizeSNaQres2.sh`
+
+* `README.md`: gives higher-level explanations and all the tools (commands) to reproduce my results
 
 ###working directory: hw1
 
@@ -20,10 +23,10 @@ This directory contains the following document:
 
 * To change the working directory to `hw1` and run the following code:
 #####bash scripts/normalizeFileNames.sh
-will reproduce the results of exercise 1.
+will reproduce the results of `ex1`.
 
     (The file names of all data files in this repository were already changed.)
 
 * To change the working directory to `hw1` and run the following code:
-#####bash scripts/summarizeSNaQres.sh
-will reproduce the results of exercise 2.
+#####bash scripts/summarizeSNaQres2.sh
+will reproduce the correct results of `ex2`.
