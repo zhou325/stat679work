@@ -21,7 +21,11 @@ working directory: `hw2`
 ## Instructions
 
 To change the working directory to `hw2` and run the following code:
-`python scripts/hw2.py <filename of temperature data> <filename of energy data> <filename of output>` or `python hw2.py <filename of temperature data> <filename of energy data>`
+
+`python scripts/hw2.py <filename of temperature data> <filename of energy data> <filename of output>`
+
+or `python hw2.py <filename of temperature data> <filename of energy data>`
+
 will get the merged data required in this homework.
 
 Specifically, to reproduce the output file from the given data, run
