@@ -29,6 +29,7 @@ Specifically, to reproduce the output file from the given data, run
 `python scripts/hw2.py hw2-datamerge/waterTemperature.csv hw2-datamerge/energy.csv results/output.csv`
 
 **Quick view of the output table (first 51 rows):**
+
 |Index|Date Time           |Temperature|Energy (Wh/1000)|
 |-----|--------------------|-----------|----------------|----|
 |1    |07/29/16 10:26:34 AM|72.86      |                |    |
