@@ -109,7 +109,7 @@ def merging_data(temp_file_name, energy_file_name, output_file_name):
                 for j in range(len(temp_new_date)):
                     if temp_new_date[j] == currentEnergyDay:
                         if temp_new_date[j+1] == currentEnergyDay:
-                            temp_energy_value.append(",")
+                            temp_energy_value.append("\",\"")
                         else:
                             temp_energy_value.append(energy_value[n_energy])
             n_energy += 1
@@ -122,7 +122,7 @@ def merging_data(temp_file_name, energy_file_name, output_file_name):
                     if temp_new_date[j] >= currentEnergyDay:
                         if j != len(temp_new_date) -1:
                             if temp_new_date[j] == temp_new_date[j+1]:
-                                temp_energy_value.append(",")
+                                temp_energy_value.append("\",\"")
                             else: temp_energy_value.append("NA")
                         else: temp_energy_value.append("NA")
 
